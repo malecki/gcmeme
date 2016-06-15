@@ -1,26 +1,35 @@
 /* Base Application Styles */
 @import 'https://fonts.googleapis.com/css?family=Oswald|Raleway';
 
+html {height: 100%;}
 body {
   color: #fff;
   background: #111;
+  height: 100%;
 }
-
 a,a:visited {
     color: #fff;
     text-decoration: none;
     border-bottom: 2px dashed #f00;
 }
-.index {
+div#app { height: 100%; }
+div.index {
     display:flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 100%;
+    height: 100%;
 }
-
-.index .maintext {
+div.index > div {
+    flex : 1;
+    justify-content: center;
+}
+.index div.maintext {
+    flex:1;
     width: 100%;
+    height: 100%;
     font-family: Oswald,sans-serif;
-    font-size: 7em;
+    font-size: 5em;
     font-weight: bold;
     text-align: center;
     color: #fff;
@@ -29,33 +38,37 @@ a,a:visited {
 div.list-container{
     flex: 2 1 auto;
     margin: auto;
+    font-size: 4em
 }
 
-.list-head{
-    font-size: 4em;
+.index div.list-head{
+    flex: 1;
+    justify-content: center;
+    font-size: 3em;
     font-family: Oswald,sans-serif;
     font-weight: 300;
     text-align: center;
 }
-.list-container ul,li{
-    font-size: 40px;
+.index .list-container ul,li{
     list-style: none;
     font-family: Raleway,sans-serif;
     line-height: 1.5em;
     scroll: auto;
+    font-size: 2rem;
 }
-
-.hashtag-banner {
-    position:fixed;
+div.spacer{
+    flex:1;
+}
+.index .hashtag-banner {
+    flex: 0 0 10%;
     bottom: 0px;
-    align-self: flex-end;
     width: 100%;
     text-align: center;
     align-content: center;
     padding: 15px;
     font-family: Oswald,sans-serif;
     font-weight:100;
-    font-size: 3em;
+    font-size: 200%;
     -webkit-stroke-width: 5.3px;
       -webkit-stroke-color: #FFFFFF;
       -webkit-fill-color: #FFFFFF;

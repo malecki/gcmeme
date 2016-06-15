@@ -26,7 +26,7 @@ class StaticComponent extends React.Component{
         return(
             <div className="index">
               <div className="maintext">{mainText}</div>
-              <div className="list-head">The new gay agenda</div>
+              <div className="list-head"><p>The new gay agenda</p></div>
               <div className="list-container">
                     <ul>
                       <li>☑︎ Marriage</li>
@@ -39,7 +39,7 @@ class StaticComponent extends React.Component{
                   </ul>
               </div>
               <div className="hashtag-banner">
-              {botText}
+                  {botText}
               </div>
             </div>
         )
