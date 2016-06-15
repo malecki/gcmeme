@@ -1,0 +1,68 @@
+/* Base Application Styles */
+@import 'https://fonts.googleapis.com/css?family=Oswald|Raleway';
+
+body {
+  color: #fff;
+  background: #111;
+}
+
+a,a:visited {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px dashed #f00;
+}
+.index {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.index .maintext {
+    width: 100%;
+    font-family: Oswald,sans-serif;
+    font-size: 7em;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+
+div.list-container{
+    flex: 2 1 auto;
+    margin: auto;
+}
+
+.list-head{
+    font-size: 4em;
+    font-family: Oswald,sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+.list-container ul,li{
+    font-size: 40px;
+    list-style: none;
+    font-family: Raleway,sans-serif;
+    line-height: 1.5em;
+    scroll: auto;
+}
+
+.hashtag-banner {
+    position:fixed;
+    bottom: 0px;
+    align-self: flex-end;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    padding: 15px;
+    font-family: Oswald,sans-serif;
+    font-weight:100;
+    font-size: 3em;
+    -webkit-stroke-width: 5.3px;
+      -webkit-stroke-color: #FFFFFF;
+      -webkit-fill-color: #FFFFFF;
+      text-shadow: 1px 0px 20px black;
+      -webkit-transition: width 0.3s; /*Safari & Chrome*/
+      transition: width 0.3s;
+      -moz-transition: width 0.3s; /* Firefox 4 */
+      -o-transition: width 0.3s; /* Opera */
+    background: linear-gradient(90deg, red 0%, red 16.66666666666667%, orange 16.66666666666667%, orange 33.33333333333334%, yellow 33.33333333333334%, yellow 50%, green 50%, green 66.66666666666667%, blue 66.66666666666667%, blue 83.33333333333333%, purple 83.33333333333333%, purple 100%);
+}
