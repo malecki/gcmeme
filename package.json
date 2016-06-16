@@ -69,6 +69,7 @@
     "normalize.css": "^4.0.0",
     "react": "^15.0.0",
     "react-dom": "^15.0.0",
-    "react-router": "~2.4.0"
+    "react-router": "~2.4.0",
+    "react-social": "~1.4.1"
   }
 }
