@@ -77,8 +77,9 @@ class StaticComponent extends React.Component{
             'From Stonewall to Pulse.',
             '#LGBTLivesMatter #BlackLivesMatter #MuslimLivesMatter'
         ]
-        var i = props.params.id < _items.length ? props.params.id : _items.length-1
-        var mainText = props.params.id ? _items[i] : _items[Math.floor(Math.random()*_items.length)]
+        var i = props.params.id ? props.params.id : Math.floor(Math.random()*_items.length)
+        i = i < _items.length ? i : _items.length-1
+        var mainText = _items[i]
         var botText = _bottomItems[Math.floor(Math.random()*_bottomItems.length)]
         let url = "http://guncontrol.lgbt/#/" + i
         var fburl = "https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fguncontrol.lgbt%2F%23%2f"+i+"&amp;src=sdkpreparse"
