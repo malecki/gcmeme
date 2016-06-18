@@ -68,7 +68,13 @@ class StaticComponent extends React.Component{
             'YASSSSSSSSSSS Queen!',
             'From top to bottom. From sea to shining sea.',
             'Who’s full of argle-bargle now?',
-            'I sho’ can tell you what we should do next, okrrrr?'
+            'I sho’ can tell you what we should do next, okrrrr?',
+            'Honey, what’s this? What’s happening? What’s going on?',
+            'NRA: You can’t sit with us',
+            'If we manage to get this right, they’ll surrender by early light. The world will never be the same.',
+            'Do you hear the people sing?',
+            '...and all that jazz',
+            'NRA is the new Felicia. Bye.'
         ]
         var _bottomItems = [
             'More than silence. More than thoughts. More than prayers. More.',
