@@ -73,7 +73,7 @@ class StaticComponent extends React.Component{
             'NRA: You can’t sit with us',
             'If we manage to get this right, they’ll surrender by early light. The world will never be the same.',
             'Do you hear the people sing?',
-            '...and all that jazz',
+            '…and all that jazz',
             'NRA is the new Felicia. Bye.'
         ]
         var _bottomItems = [
